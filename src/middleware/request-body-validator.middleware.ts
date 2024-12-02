@@ -1,8 +1,8 @@
 import { plainToInstance } from "class-transformer";
 import { validate } from "class-validator";
 import { Request, Response, NextFunction, RequestHandler } from "express";
-import { HttpStatusCode } from "../types";
-import { logger } from "../utils/logger";
+import { HttpStatusCode } from "@types";
+import { logger } from "@utils";
 
 export const validateBody = (dto: any): RequestHandler => {
   return async (

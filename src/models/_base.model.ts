@@ -1,9 +1,8 @@
 import { pool } from "../database";
 import { HttpStatusCode, ModelInterface, ValidationInterface } from "../types";
-import { validate } from "../utils/validator";
-import { PaginationDto } from "../dto/pagination.dto";
+import { PaginationDto } from "@dto/pagination.dto";
 import _ from "lodash";
-import { logger } from "../utils/logger";
+import { logger, validate } from "@utils";
 import CustomError from "../common/custom-error";
 
 

@@ -3,7 +3,7 @@ dotenv.config();
 
 import app from "./app";
 import { initializeDatabase } from "./database";
-import { logger } from "./utils";
+import { logger } from "@utils";
 
 import swaggerUi, { SwaggerOptions } from "swagger-ui-express";
 import swaggerJSDoc from "swagger-jsdoc";

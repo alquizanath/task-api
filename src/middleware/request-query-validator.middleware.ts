@@ -1,8 +1,8 @@
 import { plainToClass } from "class-transformer";
-import { HttpStatusCode } from "../types";
+import { HttpStatusCode } from "@types";
 import { NextFunction, RequestHandler, Request, Response } from "express";
 import { validate } from "class-validator";
-import { logger } from "../utils/logger";
+import { logger } from "@utils";
 
 export const validateQuery = (dtoClass: any): RequestHandler => {
   return async (

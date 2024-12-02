@@ -1,11 +1,11 @@
 import "reflect-metadata";
 
 import express, { Application, NextFunction, Request, Response } from "express";
-import loggerMiddleware from "./middleware/logger.middleware";
 
-import task from "./routes/task.route";
-import { HttpStatusCode } from "./types";
-import errorMiddleware from "./middleware/error.middleware";
+import task from "@routes/task.route";
+import { HttpStatusCode } from "@types";
+import errorMiddleware from "@middleware/error.middleware";
+import loggerMiddleware from "@middleware/logger.middleware";
 
 const app: Application = express();
 

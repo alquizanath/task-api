@@ -1,4 +1,4 @@
-import { HttpStatusCode } from "../types";
+import { HttpStatusCode } from "@types";
 
 export default async (err: any, req: any, res: any, next: any) => {
   const status =

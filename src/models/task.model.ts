@@ -1,4 +1,4 @@
-import { ValidationInterface } from "src/types";
+import { ValidationInterface } from "@types";
 import BaseModel from "./_base.model";
 
 class Task extends BaseModel {

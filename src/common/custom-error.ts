@@ -1,4 +1,4 @@
-import { CustomErrorInterface, HttpStatusCode } from "../types";
+import { CustomErrorInterface, HttpStatusCode } from "@types";
 
 class CustomError implements CustomErrorInterface {
     message!: string | unknown;

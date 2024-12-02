@@ -1,9 +1,10 @@
 import task from "../models/task.model";
-import { CreateTaskDto } from "../dto/create-task.dto";
-import { GetTaskFilterDto } from "../dto/get-task-filter.dto";
-import { UpdateTaskDto } from "src/dto/update-task.dto";
+
 import CustomError from "../common/custom-error";
-import { HttpStatusCode, TaskStatusEnum } from "../types/enums";
+import { HttpStatusCode, TaskStatusEnum } from "@types";
+import { CreateTaskDto } from "@dto/create-task.dto";
+import { GetTaskFilterDto } from "@dto/get-task-filter.dto";
+import { UpdateTaskDto } from "@dto/update-task.dto";
 
 class TaskService {
   createTask = async (dto: CreateTaskDto) => {

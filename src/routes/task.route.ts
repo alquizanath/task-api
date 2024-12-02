@@ -1,13 +1,14 @@
 import { Router } from "express";
 
-import taskController from "../controllers/task.controller";
+import taskController from "@controllers/task.controller";
 
-import { CreateTaskDto } from "../dto/create-task.dto";
-import { validateQuery } from "../middleware/request-query-validator.middleware";
-import { validateBody } from "../middleware/request-body-validator.middleware";
-import { GetTaskFilterDto } from "../dto/get-task-filter.dto";
-import { UpdateTaskDto } from "../dto/update-task.dto";
-import { UpdateTaskStatusDto } from "../dto/update-task-status.dto";
+import { validateQuery } from "@middleware/request-query-validator.middleware";
+import { validateBody } from "@middleware/request-body-validator.middleware";
+import { CreateTaskDto } from "@dto/create-task.dto";
+import { GetTaskFilterDto } from "@dto/get-task-filter.dto";
+import { UpdateTaskStatusDto } from "@dto/update-task-status.dto";
+import { UpdateTaskDto } from "@dto/update-task.dto";
+
 
 const router = Router();
 

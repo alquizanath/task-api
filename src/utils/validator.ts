@@ -1,4 +1,4 @@
-import { ValidationInterface } from "src/types";
+import { ValidationInterface } from "@types";
 import ValidatorJS from "validatorjs";
 
 const VALIDATOR_RULES = {

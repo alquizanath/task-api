@@ -1,0 +1,17 @@
+.git
+.idea
+.vscode
+.DS_Store
+.gitignore
+.editorconfig
+.prettierignore
+dist/*
+Dockerfile
+node_modules/*
+!.env
+!.env.local
+docker
+docker/*
+logs
+logs/*
+tools
